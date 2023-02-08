@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-Validation</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+
+</head>
+<body>
+    
+    <div class="container">
+    <div class="header">
+        <h1 id="hder">Create Account</h1>
+    </div>
+    <form action="submit" class="form" id="form">
+             <div class="form-control" id="one">
+                <label for="userName">UserName</label>
+                <input type="text" name="userName" id="userName" placeholder="Enter your Username">
+                <i class="fa-duotone fa-check">✔</i>
+                <i class="fa-solid fa-circle-exclamation">❗</i>
+                <small>Error message</small>
+             </div>
+             <div class="form-control" id="two">
+                <label for="E-mail">E-mail</label>
+                <input type="text" name="mail" id="E-mail" placeholder="Enter your e-mail">
+                <i class="fa-duotone fa-check">✔</i>
+                <i class="fa-solid fa-circle-exclamation">❗</i>
+                <small>Error message</small>
+             </div>
+             <div class="form-control" id="three">
+                <label for="Password">Password</label>
+                <input type="text" name="Password" id="password-1" placeholder="Enter your  Password">
+                <i class="fa-duotone fa-check">✔</i>
+                <i class="fa-solid fa-circle-exclamation">❗</i>
+                <small>Error message</small>
+             </div>
+             <div class="form-control" id="four">
+                <label for="confirm-password">confirm-password</label>
+                <input type="text" name="confirmPassword" id="password-2" placeholder="Re-enter your Password">
+                <i class="fa-duotone fa-check">✔</i>
+                <i class="fa-solid fa-circle-exclamation">❗</i>
+                <small>Error message</small>
+             </div>
+             
+  
+    <div class="table" id="tab">
+      <table class="data">
+         <tbody>
+             <tr>
+                 <th>Fields</th>
+                 <th>Values</th>
+             </tr>
+             <tr>
+                 <td>UserName</td>
+                 <td class="fullname"></td>
+             </tr>
+             <tr>
+                 <td>Email ID</td>
+                 <td class="email"></td>
+             </tr>
+             <tr>
+                 <td>Password</td>
+                 <td class="password"></td>
+             </tr>
+         </tbody>
+     </table>
+    </div>
+    <button id="sub">Submit</button>
+    <a href="#" id="done" class="result">View</a>
+  <input type="button" value="clear" id="clear" class="clearAll">
+  <input type="button" name="Back" id="back" value="Back" class="goBack">
+ 
+    
+   </form>
+   </div>
+ <script src="./script.js"></script>
+ </body>
+</html>
+
+
+
+
+
